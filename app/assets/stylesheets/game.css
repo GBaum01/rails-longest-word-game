@@ -1,0 +1,27 @@
+body {
+  background-color: #0a1a2f;
+  color: #d3d3d3;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.letter-grid {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.tile {
+  background: #13233f;
+  color: #d3d3d3;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rbga(0,0,0,0.4);
+}
